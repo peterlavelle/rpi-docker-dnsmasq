@@ -4,4 +4,4 @@ Note: This image is configured to use Google's public DNS servers. You can chang
 
 Example:
 
->docker run --restart=always --name dnsmasq -p 53:53/udp -d plavelle/rpi-dnsmasq
+>docker run --restart=always --name dnsmasq -p 53:53/udp -d plavelle/rpi-docker-dnsmasq
